@@ -64,8 +64,10 @@ console.log(val===str3);
 // false
 console.log(!isAwake);
 // true
-console.log("eleven"|| isAwake);
-// eleven
+console.log("eleven"==str4 &&val>=str3);
+// false
+console.log(!isAwake||isAwake)
+// true
 console.log(0 == false);
 // true
 console.log(0===false);
